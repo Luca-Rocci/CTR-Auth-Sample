@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "CTR-Auth-Sample",
+    "slug": "CTR-Auth-Sample",
+    "version": "1.0.3",
+    "orientation": "default",
+    "icon": "./assets/images/icon.png",
+    "scheme": "ctrauthsample",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "googleServicesFile": "./google-services.json",
+      "package": "it.rocci.app.crtauthsample"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ],
+      "react-native-nitro-google-signin"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ede96f42-17c8-4fa4-80a1-bfaf88befba3"
+      }
+    },
+    "owner": "luca.rocci"
+  }
+}
